@@ -13,14 +13,14 @@ The dataset contains lung x-ray scans of patients with and without pneumonia. Th
 <p align="center"> Figure 2. X-Ray Scans With and Without Pneumonia
 
 
-The developed model has an accuracy of 93.75 %, and the structure of the model is described in the figure below. Initially, 4 models developed by Kaushik et al (2020), were replicated, however, the replicated models showed signs of overfitting. Therefore, the third model was adapted to design a new model. The overall structure of the model was kept the same, however, the learning rate, loss function and activation function of the last dense layer were changed. In the paper, a categorical cross-entropy with softmax activation was used. This was changed to binary cross-entropy with sigmoid activation.
+The developed model has an accuracy of 93.75 %, and the structure of the model is described in the figure below. Initially, 4 models developed by Kaushik et al (2020), were replicated, however, the replicated models showed signs of overfitting. Therefore, the third model was adapted to design a new model. The overall structure of the model was kept the same, however, the number of perceptrons in fully connected layer, learning rate, loss function and activation function of the last dense layer were changed. In the paper, a categorical cross-entropy with softmax activation was used. This was changed to binary cross-entropy with sigmoid activation. The number of perceptros were decreased to 128.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/115262940/221440420-8751f224-81c9-4383-8591-10e17ed414c6.png" />
 </p>
 <p align="center"> Figure 3. Model Structre
 
-In addition, a decay learning rate was used, where the learning rate will decrease by a factor of 0.3 if the validation accuracy does not change for 5 epochs, see figure 4. To prevent overfitting, dropout layers and L1 regularization were introduced to the model. The overall performance of the adapted model has 1.44 % higher accuracy than the best-performing model in Kaushik et al (2020). The training loss and accuracy are shown in figures below.
+In addition, a decay learning rate was used, where the learning rate was decrease by a factor of 0.3 if the validation accuracy does not change for 5 epochs, see figure 4. To prevent overfitting, dropout layers and L1 regularization were introduced to the model. The overall performance of the new model has 1.44 % higher accuracy than the best-performing model in Kaushik et al (2020). The training loss and accuracy are shown in figures below.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/115262940/221439283-78b004a6-5350-44e2-9858-68c123fee3fe.png" />
