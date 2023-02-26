@@ -147,7 +147,7 @@ model.evaluate(x_test, y_test, verbose="auto")
 ######################## Plot ########################
 loss = history.history['loss']
 val_loss = history.history['val_loss'] 
-epochs = range(0,1)
+epochs = range(0,20)
 
 
 plt.plot(epochs, val_loss, 'r')
