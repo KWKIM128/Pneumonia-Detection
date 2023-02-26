@@ -11,5 +11,9 @@ The developed model has an accuracy of 93.75 %, and the structure of the model i
 
 Figure 3. Model structre
 
-In addition, a decay learning rate was used, where the learning rate will decrease by a factor of 0.3 if the validation accuracy does not change for 5 epochs. To prevent overfitting, dropout layers and L1 regularization were introduced to the model. The overall performance of the adapted model has 1.44 % higher accuracy than the best-performing model in Kaushik et al (2020). The training loss and accuracy are shown in figures below
+In addition, a decay learning rate was used, where the learning rate will decrease by a factor of 0.3 if the validation accuracy does not change for 5 epochs, see figure 3. To prevent overfitting, dropout layers and L1 regularization were introduced to the model. The overall performance of the adapted model has 1.44 % higher accuracy than the best-performing model in Kaushik et al (2020). The training loss and accuracy are shown in figures below.
 
+## References
+https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia 
+
+Sirish Kaushik, V., Nayyar, A., Kataria, G. and Jain, R., 2020. Pneumonia detection using convolutional neural networks (CNNs). In Proceedings of First International Conference on Computing, Communications, and Cyber-Security (IC4S 2019) (pp. 471-483). Springer Singapore.
