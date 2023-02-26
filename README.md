@@ -3,6 +3,7 @@
   <img src="https://user-images.githubusercontent.com/115262940/221438788-9c94d249-08eb-46d6-b133-be284c0385b8.png" />
 </p>
 <p align="center"> Figure 1. Pneumonia Dataset
+  
 The dataset contains lung x-ray scans of patients with and without pneumonia [1]. The dataset contains two types of pneumonia, bacterial and viral, as shown in the figure above. However, the model developed only determines whether the x-ray scan has pneumonia or not as shown in figure 2.
 
 <p align="center">
@@ -30,6 +31,7 @@ In addition, a decay learning rate was used, where the learning rate will decrea
 </p>
 <p align="center"> Figure 5. Training and Validation Loss
 
+  
 <p align="center">
   <img src="https://user-images.githubusercontent.com/115262940/221439090-9b8b6078-511f-4593-9f84-d8c55b11d5f9.png" />
 </p>
