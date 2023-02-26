@@ -4,6 +4,7 @@
 </p>
 <p align="center"> Figure 1. Pneumonia Dataset
   
+  
 The dataset contains lung x-ray scans of patients with and without pneumonia [1]. The dataset contains two types of pneumonia, bacterial and viral, as shown in the figure above. However, the model developed only determines whether the x-ray scan has pneumonia or not as shown in figure 2.
 
 <p align="center">
