@@ -118,9 +118,9 @@ model = Sequential([
     MaxPool2D(pool_size=(2,2),strides=(2,2)),
     
     Flatten(),
-	Dense(units=128, activation="relu", kernel_regularizer='l1'),
+    Dense(units=128, activation="relu", kernel_regularizer='l1'),
     Dropout(0.3),
-	Dense(units=2, activation="sigmoid")
+    Dense(units=2, activation="sigmoid")
     ])
 
 #opt = keras.optimizers.Adam()
